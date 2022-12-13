@@ -6,7 +6,7 @@ Fonksiyon argüman olarak string alacak,
 Hesaplama işlemi bu fonksiyon içerisinde yaptırılacak,
 Fonksiyon sözlük döndürecek ve 
 Rakam veya string olup olmadığını kontrol eden fonksiyon kullanılacaktır.
-
+```python
 def harf_ve_sayi_adedi_bulma(karakterler:str) -> dict:
     
     dict_={"NUMBERS":0,"LETTERS":0}     
@@ -23,9 +23,9 @@ def harf_ve_sayi_adedi_bulma(karakterler:str) -> dict:
 sözlük= str(input("Bir değer giriniz: "))
 karakterler=harf_ve_sayi_adedi_bulma(sözlük)
 print(karakterler)
-
+```
 Eğer bu programı sözlük içine atmasaydık şu şekilde de tanımlayabilirdik:
-
+```python
 def harf_ve_sayi_adedi_bulma(karakterler):
     
     num=0
@@ -44,3 +44,4 @@ def harf_ve_sayi_adedi_bulma(karakterler):
 sözlük= str(input("Bir değer giriniz: "))
 karakterler=harf_ve_sayi_adedi_bulma(sözlük)
 print(karakterler) 
+```
